@@ -1,4 +1,4 @@
-<img style="border-radius: 25px; margin-top: 20px" src="./images/header.gif"/>
+<img style="border-radius: 25px; margin-top: 20px" src="/images/header.gif"/>
 
 A mix of tools at your disposal. Integrating all the services out there into one seamless app.
 
@@ -19,7 +19,7 @@ Doing so will get you some sweet perks and will continue to keep our initiative 
 
 <br>
 
-<img style="border-radius: 25px;" src="./images/tools.gif"/>
+<img style="border-radius: 25px;" src="/images/tools.gif"/>
 
 - Dynamix Overlays
 - Touch & Go
@@ -41,7 +41,7 @@ Doing so will get you some sweet perks and will continue to keep our initiative 
 ## UI Preview
 The UI is coming very very soon. 
 
-<img style="border-radius: 25px;" src="./images/preview.gif"/>
+<img style="border-radius: 25px;" src="/images/preview.gif"/>
 
 ## Access the endpoints
   > **Dynamix Overlays:** http://localhost:3000
@@ -102,6 +102,6 @@ For our Help Centre: https://help.orangop.us
 
 # License
 
-<img style="border-radius: 25px;" src="./images/authors.gif"/>
+<img style="border-radius: 25px;" src="/images/authors.gif"/>
 
 >This software is licensed under MIT and maintained by the Orangopus Initiative. We provide this software as is and without warranty. 
