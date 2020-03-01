@@ -1,11 +1,3 @@
-
-<style>
-    * {
-        font-family: Quicksand;
-        font-weight: 700
-  }
-</style>
-
 <img style="border-radius: 25px; margin-top: 20px" src="./images/header.gif"/>
 
 A mix of tools at your disposal. Integrating all the services out there into one seamless app.
