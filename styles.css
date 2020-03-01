@@ -1,0 +1,156 @@
+body {
+  text-align: left;
+  font-family: "Quicksand";
+  margin: 0;
+  overflow: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap");
+
+h1 {
+  color: white;
+  line-height: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.prenup {
+  padding-bottom: 25px;
+  font-size: 55px;
+}
+
+.eventdesc {
+  max-width: 880px;
+  max-height: 300px;
+  font-size: 35px;
+  font-weight: bolder;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.scenes {
+  margin-left: 130px;
+}
+
+.scenetitle {
+  font-size: 55px;
+  line-height: 0px;
+  padding-bottom: 10px;
+}
+
+.scenedesc {
+  color: #f4a52e;
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 0px;
+  max-width: 100%;
+}
+
+.main {
+  transform: translateY(25%);
+  margin-left: 183px;
+}
+
+.game {
+  border-radius: 45px;
+  max-width: 300px;
+  max-height: 300px;
+  box-shadow: 0px 3px 55px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  margin-left: 100px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.item {
+  border-radius: 45px;
+  background: #111111;
+  content: " ";
+  width: 300px;
+  height: 300px;
+  max-height: 300px;
+  max-width: 300px;
+  margin: 30px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .item,
+  .itemimg {
+    border-radius: 15px;
+    width: 85px;
+    height: 85px;
+    max-height: 85px;
+    max-width: 85px;
+  }
+
+  .item {
+    margin: 5px;
+  }
+}
+
+.player {
+  background: #1ed760;
+  border-radius: 15px;
+  width: 400px;
+  height: 104px;
+  display: flexbox;
+  margin-right: 20px;
+  margin-top: 26px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.chat {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flexbox;
+  width: 400px;
+  height: 500px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 75px;
+  margin-right: 10px;
+}
+
+.album {
+  margin: 10px 0px 10px 10px;
+  max-height: 100px;
+}
+
+.gamecont {
+  margin-top: 250px;
+  display: flex;
+}
+
+p {
+  color: white;
+  max-width: 500px;
+  font-weight: bolder;
+}
+
+.logo {
+  max-height: 104px;
+}
+
+.nav {
+  background: #222;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 20px !important;
+}

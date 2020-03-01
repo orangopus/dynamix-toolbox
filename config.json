@@ -1,0 +1,78 @@
+{
+    "user": {
+        "username": "Cheese",
+        "platform": "mixer",
+        "logo": "https://i.imgur.com/Xzff1zr.png",
+        "font": "Quicksand",
+        "color": "#f4a52e",
+        "currentScene": "start",
+        "background": "#282828",
+        "corners": "0px",
+        "backgroundImage": {
+            "url": "",
+            "enabled": true
+        },
+        "cam": false
+    },
+    "discord": {
+        "clientID": "666790743569989633",
+        "timer": 5
+    },
+    "go": {
+        "player": true,
+        "buttons": 10
+    },
+    "events": [{
+            "name": "Creative Coding 🎨👨‍💻",
+            "desc": "Creative Coding is a segment on cheese.live following Cheese and his journey of creative and programmatic coding.",
+            "id": 1
+        },
+        {
+            "name": "Saturdev 👨‍💻",
+            "desc": "Saturday is the day where Cheese develops cool stuff like Streamer.is and Dynamix.",
+            "id": 2
+        }
+    ],
+    "scenes": [{
+            "name": "Starting Soon",
+            "desc": "get ready for some cheesy goudaness!",
+            "prenup": "Coming up...",
+            "id": "start",
+            "enabled": false
+        },
+        {
+            "name": "Brie Right Back",
+            "desc": "take 5. grab a snack. stretch your back!",
+            "prenup": "Coming up...",
+            "id": "brb",
+            "enabled": false
+        },
+        {
+            "name": "Goudabye",
+            "desc": "the cheese factory exploded! debrie went everywhere!",
+            "prenup": "Show's over!",
+            "id": "end",
+            "enabled": false
+        },
+        {
+            "id": "game",
+            "enabled": true
+        }
+    ],
+    "tools": [{
+            "name": "Mixer Rich Presence",
+            "desc": "Discord Rich Presence for Mixer!",
+            "enabled": false
+        },
+        {
+            "name": "Pretzel Fetch",
+            "desc": "Fetches the Pretzel song from the txt file and shows it on Touch & Go.",
+            "enabled": true
+        },
+        {
+            "name": "Touch Portal",
+            "desc": "This hook interacts with TouchPortal and dynamically updates buttons on TouchPortal using a special plugin.",
+            "enabled": true
+        }
+    ]
+}
