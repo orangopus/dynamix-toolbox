@@ -71,7 +71,15 @@ To install this, clone the repo into a directory.
 
 then
 
-> npm install
+> npm install 
+
+?
+
+> npm i
+
+then 
+
+> npm run dev
 
 
 See [Options](#Options) for the list of options
