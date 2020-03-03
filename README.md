@@ -1,4 +1,4 @@
-<img style="border-radius: 25px; margin-top: 20px" src="/images/header.gif"/>
+![](https://cdn.discordapp.com/attachments/656468387039412238/683842535969652796/unknown.png)
 
 A mix of tools at your disposal. Integrating all the services out there into one seamless app.
 
