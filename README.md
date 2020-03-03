@@ -5,23 +5,27 @@ Coded with 🧡 by [🐙](https://orangop.us)
 ## Pre-requisites:
 - [Nodejs](https://nodejs.org)
 
-## 
-- Dynamix Overlays
-- Touch & Go
+## Features
+- Dynamix Overlays (/overlays)
+- GoDECK (/go)
+- Dynamix CMS (/)
 - Easily configurable config file
+- Built on React & Next.js
 
-## Planned Tools
-- Reactive buttons
+## Planned Features
+- Dynamically updated buttons
 - UI frontend
-- Razer Chroma
+- Razer Chroma Integration
+- Streamer.is Integration
+- Settings Panel
 - Schedules / Events
 - Discord Rich Presence
-- TouchUp v2 Integration
-- Auth to different streaming platforms
+- TouchPortal Integration
+- Auth to different streaming platforms using Auth0
 - Windows, Linux and Mac support
 
 ## To-Do
-  > A lot of things, more things that you would wanna know.
+> A lot of things, more things than you would wanna know.
 
 ## UI Preview
 The UI is coming very very soon. 
@@ -29,8 +33,7 @@ The UI is coming very very soon.
 <img style="border-radius: 25px;" src="/images/preview.gif"/>
 
 ## Access the endpoints
-  > **Dynamix:** http://localhost:3000
-  > **GoDECK:** http://localhost:3000/go
+  
   > If you're on mobile then go to http://`YOUR_LOCAL_IP`:3000/
 
 ## Change the config.json
@@ -45,26 +48,13 @@ Only one that's working now is Mixer. Feel free to take a stab at working on Aut
 
 API documentation coming soon.
 
-# Setup 
-## For advanced users
+# Get Started
 
-To install this, clone the repo into a directory.
+## Dev environment
 
-> git clone orangopus/dynamix-toolbox.git
+> 
 
-then
-
-> npm install 
-
-?
-
-> npm i
-
-then 
-
-> npm run dev 
-
-## For regular users
+## FUll-Stack Web-app
 
 A fully featured app will be coming soon! Stay tuned for more updates. In the meantime you can follow  @[Orangopus](https://twitter.com/Orangopus) on Twitter for updates and watch the livestreams.
 
@@ -82,4 +72,4 @@ For our Help Centre: https://help.orangop.us
 
 <img style="border-radius: 25px;" src="/images/authors.gif"/>
 
->This software is licensed under MIT and maintained by the Orangopus Initiative. We provide this software as is and without warranty. 
+>This software is licensed under MIT and maintained by the Orangopus Team.
