@@ -1,26 +1,11 @@
-![](https://cdn.discordapp.com/attachments/656468387039412238/683842535969652796/unknown.png)
-
 A mix of tools at your disposal. Integrating all the services out there into one seamless app.
 
 Coded with 🧡 by [🐙](https://orangop.us)
 
-## OpenCollective:
-
-Support our initiative on [OpenCollective](https://go.orangop.us/collective)
-
-- £1 Fish (One-time)
-- Spare Change (One-time)
-- Pentopus £5 (One-time or Recurring)
-
-Doing so will get you some sweet perks and will continue to keep our initiative going!
-
 ## Pre-requisites:
 - [Nodejs](https://nodejs.org)
 
-<br>
-
-<img style="border-radius: 25px;" src="/images/tools.gif"/>
-
+## 
 - Dynamix Overlays
 - Touch & Go
 - Easily configurable config file
@@ -31,7 +16,7 @@ Doing so will get you some sweet perks and will continue to keep our initiative 
 - Razer Chroma
 - Schedules / Events
 - Discord Rich Presence
-- TouchUp v2
+- TouchUp v2 Integration
 - Auth to different streaming platforms
 - Windows, Linux and Mac support
 
@@ -44,10 +29,8 @@ The UI is coming very very soon.
 <img style="border-radius: 25px;" src="/images/preview.gif"/>
 
 ## Access the endpoints
-  > **Dynamix Overlays:** http://localhost:3000
-
-  > **Touch & Go:** http://localhost:3000/go
-  
+  > **Dynamix:** http://localhost:3000
+  > **GoDECK:** http://localhost:3000/go
   > If you're on mobile then go to http://`YOUR_LOCAL_IP`:3000/
 
 ## Change the config.json
@@ -63,7 +46,7 @@ Only one that's working now is Mixer. Feel free to take a stab at working on Aut
 API documentation coming soon.
 
 # Setup 
-## For advanced users:
+## For advanced users
 
 To install this, clone the repo into a directory.
 
@@ -79,12 +62,7 @@ then
 
 then 
 
-> npm run dev
-
-
-See [Options](#Options) for the list of options
-
-> 
+> npm run dev 
 
 ## For regular users
 
