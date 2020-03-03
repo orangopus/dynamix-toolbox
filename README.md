@@ -1,4 +1,4 @@
-A mix of tools at your disposal. Integrating all the services out there into one seamless app.
+A mix of tools at your disposal. Integrating all the services out there into one seamless web-stack.
 
 Coded with 🧡 by [🐙](https://orangop.us)
 
