@@ -1,4 +1,4 @@
-![](https://i.imgur.com/6zVtFLr.png)
+![](https://i.imgur.com/R0gZo17.png)
 
 A mix of tools at your disposal. Integrating all the services out there into one seamless web-stack.
 
