@@ -16,6 +16,14 @@ h1 {
   display: flex;
 }
 
+.herocont {
+  margin-top: 8em;
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
 .prenup {
   padding-bottom: 25px;
   font-size: 55px;

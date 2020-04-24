@@ -3,22 +3,8 @@ import axios from "axios";
 
 export default function Player() {
   function SetArtist() {
-    const [song, setSong] = useState();
-
-    useEffect(() => {
-      const runEffect = async () => {
-        const song = await axios.get(`http://localhost:3000/song.txt`);
-        setSong(song);
-      };
-      runEffect();
-    }, [setSong]);
-
-    return (
-      <div>
-        <h1>{song}</h1>
-        <p>Artist</p>;
-      </div>
-    );
+    const song = axios.get("api/song.txt");
+    return null;
   }
 
   function SetAvatar() {
@@ -38,20 +24,6 @@ export default function Player() {
     }
     return window.btoa(binary);
   }
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      SetAvatar();
-      axios
-        .get("http://localhost:3000/album.jpg", {
-          responseType: "arraybuffer"
-        })
-        .then(function(album) {
-          arrayBufferToBase64(album.data);
-        });
-    }, 1000);
-    return () => clearTimeout(interval);
-  }, []);
 
   return (
     <div className="player flex">

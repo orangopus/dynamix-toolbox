@@ -103,13 +103,6 @@ class Go extends React.Component {
             <div className="item"></div>
             <div className="item"></div>
           </div>
-          <div className="flex">
-            <div className="item"></div>
-            <div className="item"></div>
-            <div className="item"></div>
-            <div className="item"></div>
-            <div className="item"></div>
-          </div>
           <div>
             <p style={{ padding: 20, width: 400, color: "grey" }}>
               Please note that Touch &amp; Go is an experimental feature. Things

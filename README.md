@@ -10,7 +10,7 @@ Coded with 🧡 by [🐙](https://orangop.us)
 ## Features
 - Dynamix Overlays (/overlays)
 - GoDECK (/go)
-- Dynamix CMS (/)
+- Dynamix Portfolio (/)
 - Easily configurable config file
 - Built on React & Next.js
 

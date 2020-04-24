@@ -3,10 +3,12 @@
         "username": "Cheese",
         "platform": "mixer",
         "logo": "https://i.imgur.com/Xzff1zr.png",
+        "logoText": " ",
         "font": "Quicksand",
         "color": "#f4a52e",
         "currentScene": "start",
-        "background": "#282828",
+        "background": "#111111",
+        "buttonColour": "#212121",
         "corners": "0px",
         "backgroundImage": {
             "url": "",
@@ -14,8 +16,22 @@
         },
         "cam": false
     },
+    "avatar": {
+        "size": "80px"
+    },
+    "logo": {
+        "subtext": "media",
+        "size": "66px",
+        "size2": "85px"
+    },
+    "web": {
+        "title": "Hey, I'm Jordan.",
+        "titleSize": "60px",
+        "subtitle": "I create and design beautiful experiences for humans.",
+        "subtitleSize": "30px"
+    },
     "discord": {
-        "clientID": "666790743569989633",
+        "clientID": " ",
         "timer": 5
     },
     "go": {
@@ -31,6 +47,10 @@
             "name": "Saturdev 👨‍💻",
             "desc": "Saturday is the day where Cheese develops cool stuff like Streamer.is and Dynamix.",
             "id": 2
+        }, {
+            "name": "Sundev 👨‍💻",
+            "desc": "Sundev is the day where cheese gets to work on finishing up his to-do list and experiments with new projects.",
+            "id": 3
         }
     ],
     "scenes": [{

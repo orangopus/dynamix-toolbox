@@ -103,19 +103,26 @@ class UserPage extends React.Component {
         style={{
           fontFamily: config.user.font,
           background: sceneChecker,
-          overflow: 'auto',
-          borderRadius: config.user.corners,
+          borderRadius: config.user.corners
         }}
       >
-        <div className="main ">
+        <div className="main">
           <div className="flex">
-      <h1 className="logo" style={{textTransform: "uppercase", fontSize: config.logo.size}}> <span style={{color: config.user.color, fontSize: config.logo.size2, textTransform: "lowercase", marginRight: "5px"}}>{config.user.username}</span>{config.logo.subtext}</h1>
+            <img className="logo" src={logo} />
+            <h1>{logoText}</h1>
+            <div className="scenes">
+              <h1 className="scenetitle">{scenetitle}</h1>
+              <p className="scenedesc" style={{ color: config.user.color }}>
+                {scenedesc}
+              </p>
+            </div>
           </div>
-          <div className="herocont">
-            <div>
-              <img className="avatar" style={{height: config.avatar.size }} src={`https://mixer.com/api/v1/users/${mixer.userId}/avatar`} />
-              <h1 className="title" style={{ color: config.user.color, fontSize: config.web.titleSize }}>{config.web.title}</h1>
-              <p className="subtitle" style={{fontSize: config.web.subtitleSize}}>{config.web.subtitle}</p>
+          <div className="gamecont">
+            <img className="game" src={mixer.type.coverUrl} />
+            <div className="info">
+              <h1 className="prenup">{prenup}</h1>
+              <EventName>{eventname}</EventName>
+              <p className="eventdesc">{eventdesc}</p>
             </div>
           </div>
         </div>
@@ -123,7 +130,7 @@ class UserPage extends React.Component {
     );
 
     if (config.currentScene === "game") {
-      return <body style={{ background: "transparent !important"}}></body>;
+      return <body style={{ background: "transparent !important" }}></body>;
     } else {
       return userData;
     }
