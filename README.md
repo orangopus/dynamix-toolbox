@@ -12,13 +12,13 @@ Coded with 🧡 by [🐙](https://orangop.us)
 - GoDECK (/go)
 - Dynamix Portfolio (/)
 - Easily configurable config file
-- Built on React & Next.js
+- Built on NextJS and React
 
 ## Planned Features
 - Dynamically updated buttons
 - UI frontend
 - Razer Chroma Integration
-- Streamer.is Integration
+- Libby Integration
 - Settings Panel
 - Schedules / Events
 - Discord Rich Presence
@@ -44,7 +44,7 @@ There's a bunch of configs in the config so play around and have fun!
 
 ## Platforms
 
-Only one that's working now is Mixer. Feel free to take a stab at working on Auth.
+We're working on integrating Glimesh after it launches.
 
 ## API Routes
 
@@ -56,13 +56,13 @@ API documentation coming soon.
 
 > 
 
-## FUll-Stack Web-app
+## Full-stack Web App
 
 A fully featured app will be coming soon! Stay tuned for more updates. In the meantime you can follow  @[Orangopus](https://twitter.com/Orangopus) on Twitter for updates and watch the livestreams.
 
 # Support
 
-We're available pretty much 24/7 on our [Discord](https://go.orangop.us/discord) so any support queries you can post in the `help` channel!
+We're available pretty much 24/7 on our [Guilded](https://go.orangop.us/guilded) so any support queries you can post in the `help` channel!
 
 For our Help Centre: https://help.orangop.us
 
