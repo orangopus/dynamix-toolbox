@@ -4,6 +4,8 @@ A mix of tools at your disposal. Integrating all the services out there into one
 
 Coded with 🧡 by [🐙](https://orangop.us)
 
+<a href="https://www.producthunt.com/posts/dynamix-toolbox?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dynamix-toolbox" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=281386&theme=dark" alt="Dynamix Toolbox - A self-hosted sandbox to boost your workflow. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ## Pre-requisites:
 - [Nodejs](https://nodejs.org)
 
