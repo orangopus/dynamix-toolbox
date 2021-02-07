@@ -1,98 +1,119 @@
 {
-    "user": {
-        "username": "Cheese",
-        "platform": "mixer",
-        "logo": "https://i.imgur.com/Xzff1zr.png",
-        "logoText": " ",
-        "font": "Quicksand",
-        "color": "#f4a52e",
-        "currentScene": "start",
-        "background": "#111111",
-        "buttonColour": "#212121",
-        "corners": "0px",
-        "backgroundImage": {
-            "url": "",
-            "enabled": true
-        },
-        "cam": false
+  "user": {
+    "username": "xpbsh",
+    "platform": "mixer",
+    "team": false,
+    "logo": "https://i.imgur.com/Xzff1zr.png",
+    "avatar": "https://pbs.twimg.com/profile_images/1347555982776430595/U52gN4MU_400x400.jpg",
+    "font": "Quicksand",
+    "color": "#ffffff",
+    "colorSecondary": "#ffffff",
+    "currentScene": "end",
+    "eventName": "Development",
+    "background": "#212121",
+    "buttonColour": "#212121",
+    "corners": "0px",
+    "backgroundImage": {
+      "url": "",
+      "enabled": true
     },
-    "avatar": {
-        "size": "80px"
+    "cam": false
+  },
+  "avatar": {
+    "size": "80px"
+  },
+  "logo": {
+    "live": "live",
+    "portfolio": "",
+    "size": "53px",
+    "size2": "70px"
+  },
+  "web": {
+    "enabled": false,
+    "title": "Hey, I'm Jordan.",
+    "titleSize": "60px",
+    "subtitle": "I create and design beautiful experiences for humans.",
+    "subtitleSize": "30px",
+    "mainbutton": {
+      "icon": "fa-dribbble",
+      "color": "#282828",
+      "background": "#E84B87",
+      "text": "view my dribbble"
+    }
+  },
+  "team": {
+    "enabled": true,
+    "before": "We're ",
+    "name": "Orangopus",
+    "desc": "An open collective that builds free open-source software for creators."
+  },
+  "discord": {
+    "clientID": " ",
+    "timer": 5
+  },
+  "go": {
+    "player": true,
+    "buttons": 10
+  },
+  "events": [
+    {
+      "name": "Creative Coding 🎨👨‍💻",
+      "desc": "Creative Coding is a segment on xpb.sh following xpbsh and his journey of creative and programmatic coding.",
+      "id": 1
     },
-    "logo": {
-        "subtext": "media",
-        "size": "66px",
-        "size2": "85px"
+    {
+      "name": "Saturdev 👨‍💻",
+      "desc": "Saturday is the day where Cheese develops cool stuff like Streamer.is and Dynamix.",
+      "id": 2
     },
-    "web": {
-        "title": "Hey, I'm Jordan.",
-        "titleSize": "60px",
-        "subtitle": "I create and design beautiful experiences for humans.",
-        "subtitleSize": "30px"
+    {
+      "name": "Sundev 👨‍💻",
+      "desc": "Sundev is the day where cheese gets to work on finishing up his to-do list and experiments with new projects.",
+      "id": 3
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Starting Soon",
+      "desc": "get ready for some bashing!",
+      "prenup": "Coming up...",
+      "id": "start",
+      "enabled": false
     },
-    "discord": {
-        "clientID": " ",
-        "timer": 5
+    {
+      "name": "Bash Right Back",
+      "desc": "take 5. grab a snack. stretch your back!",
+      "prenup": "Coming up...",
+      "id": "brb",
+      "enabled": false
     },
-    "go": {
-        "player": true,
-        "buttons": 10
+    {
+      "name": "Goodbye",
+      "desc": "the code factory exploded!",
+      "prenup": "Show's over!",
+      "id": "end",
+      "enabled": false
     },
-    "events": [{
-            "name": "Creative Coding 🎨👨‍💻",
-            "desc": "Creative Coding is a segment on cheese.live following Cheese and his journey of creative and programmatic coding.",
-            "id": 1
-        },
-        {
-            "name": "Saturdev 👨‍💻",
-            "desc": "Saturday is the day where Cheese develops cool stuff like Streamer.is and Dynamix.",
-            "id": 2
-        }, {
-            "name": "Sundev 👨‍💻",
-            "desc": "Sundev is the day where cheese gets to work on finishing up his to-do list and experiments with new projects.",
-            "id": 3
-        }
-    ],
-    "scenes": [{
-            "name": "Starting Soon",
-            "desc": "get ready for some cheesy goudaness!",
-            "prenup": "Coming up...",
-            "id": "start",
-            "enabled": false
-        },
-        {
-            "name": "Brie Right Back",
-            "desc": "take 5. grab a snack. stretch your back!",
-            "prenup": "Coming up...",
-            "id": "brb",
-            "enabled": false
-        },
-        {
-            "name": "Goudabye",
-            "desc": "the cheese factory exploded! debrie went everywhere!",
-            "prenup": "Show's over!",
-            "id": "end",
-            "enabled": false
-        },
-        {
-            "id": "game",
-            "enabled": true
-        }
-    ],
-    "tools": [{
-            "name": "Mixer Rich Presence",
-            "desc": "Discord Rich Presence for Mixer!",
-            "enabled": false
-        },
-        {
-            "name": "Pretzel Fetch",
-            "desc": "Fetches the Pretzel song from the txt file and shows it on Touch & Go.",
-            "enabled": true
-        },
-        {
-            "name": "Touch Portal",
-            "desc": "This hook interacts with TouchPortal and dynamically updates buttons on TouchPortal using a special plugin.",
-            "enabled": true
-        }
-    ]
+    {
+      "id": "game",
+      "enabled": true
+    }
+  ],
+  "tools": [
+    {
+      "name": "Mixer Rich Presence",
+      "desc": "Discord Rich Presence for Mixer!",
+      "enabled": false
+    },
+    {
+      "name": "Pretzel Fetch",
+      "desc": "Fetches the Pretzel song from the txt file and shows it on Touch & Go.",
+      "enabled": true
+    },
+    {
+      "name": "Touch Portal",
+      "desc": "This hook interacts with TouchPortal and dynamically updates buttons on TouchPortal using a special plugin.",
+      "enabled": true
+    }
+  ]
 }

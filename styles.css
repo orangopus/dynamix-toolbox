@@ -12,12 +12,62 @@ h1 {
   line-height: 10px;
 }
 
+.card {
+  background: #282828;
+  box-shadow: 0px 4px 89px rgba(0, 0, 0, 0.25);
+  border-radius: 103px;
+  padding: 20px 50px 20px 30px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.padfix {
+  transform: translateY(5%) !important;
+  margin-top: 25px;
+  margin-left: 210px !important;
+}
+
+.showcase {
+  margin-top: 20px;
+  width: 700px;
+  border-radius: 50px;
+  top: 0;
+}
+
+.mainbutton {
+  margin-top: 50px;
+  padding: 25px;
+  border-radius: 50px;
+  font-size: 25px;
+  border: none;
+  display: grid;
+  font-weight: bolder;
+  font-family: Quicksand;
+  box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.showcasecont {
+  position: fixed;
+  display: inline;
+  padding-right: 200px;
+  right: 0;
+}
+
 .flex {
   display: flex;
 }
 
 .herocont {
-  margin-top: 8em;
+  display: inline-flex;
+  margin-right: 100px;
+  margin-top: 200px;
 }
 
 .avatar {
